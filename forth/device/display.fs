@@ -391,8 +391,8 @@ defer fb8-invertrect
   loop 2drop
 
   \ special foreground and background colors
-  ffffcc ['] color-palette cell+ 0 cells + !
-  000000 ['] color-palette cell+ ff cells + !
+  000000 ['] color-palette cell+ 0 cells + !
+  00ffff ['] color-palette cell+ ff cells + !
 
   \ load palette onto the hardware
   ['] color-palette cell+ 100 0 do
